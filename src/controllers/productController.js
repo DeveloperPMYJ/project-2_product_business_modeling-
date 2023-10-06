@@ -1,6 +1,7 @@
 const { generateToken, throwError } = require('../utils');
 const productService = require('../services/productService');
 
+//상세페이지 
 const detail = async (req, res) => {
   try {
     const { id } = req.params;

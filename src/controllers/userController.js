@@ -4,6 +4,7 @@ const { userService } = require('../services');
 const { getUserIdByEmailService, mailSendService, setNewPasswordService } =
   userService;
 
+  // 소셜 로그인 
 const socialLoginController = async (req, res, next) => {
   try {
     if (req.socialData) {

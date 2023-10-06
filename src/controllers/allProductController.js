@@ -1,6 +1,8 @@
 const { allProductService } = require('../services');
 const { productSortService, categoryCheckService } = allProductService;
 
+
+// 전체 목록 페이지 
 const allProduct = async (req, res) => {
   console.log(req.query);
   try {
